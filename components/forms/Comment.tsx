@@ -86,7 +86,7 @@ const Comment = ({threadId, currentUserImg, currentUserId}: Props) => {
           <Button type="submit"
           className="bg-primary-500"
           >
-            Post String
+            Reply
           </Button>
         </form>
         </Form>
