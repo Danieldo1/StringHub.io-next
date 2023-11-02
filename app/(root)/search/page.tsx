@@ -1,11 +1,6 @@
 import {currentUser} from "@clerk/nextjs";
 import {redirect} from "next/navigation";
 import {fetchUsers,fetchUser}  from '@/lib/actions/user.actions'
-import PostThread from "@/components/forms/PostThread";
-import ProfileHeader from "@/components/shared/ProfileHeader";
-import { profileTabs } from "@/constants";
-import Image from "next/image";
-import ThreadsTab from "@/components/shared/ThreadsTab";
 import UserCard from "@/components/cards/UserCard";
 
 
