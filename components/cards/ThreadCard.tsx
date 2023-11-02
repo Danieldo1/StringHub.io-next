@@ -62,7 +62,7 @@ createdAt,
                             <span className="text-indigo-400 m-2 text-[20px]">{'}'}</span>
                             </p>
                                 {/* reactions/interactions */}
-                            <div className="mt-3 flex flex-col gap-3">
+                            <div className={`${isComment && 'mb-7'} mt-5 flex flex-col gap-3`}>
                                 <div className="flex gap-3.5">
                                     <Image src='/assets/heart-gray.svg' alt='heart' width={24} height={24} className="cursor-pointer object-contain" />
                                     <Link href={`/thread/${id}`} >
@@ -74,7 +74,9 @@ createdAt,
 
                                 {isComment && comments.length > 0 && (
                                     <Link href={`/thread/${id}`} >
-                                        <p className="mt-1 text-subtle-medium text-gray-1">{comments.length} replies</p>
+                                       <p className="mt-1 text-subtle-medium text-gray-1">
+                                        {comments.length === 1 ? '1 reply' : `${comments.length} replies`}
+                                        </p>
                                     </Link>
                                 )}
 
