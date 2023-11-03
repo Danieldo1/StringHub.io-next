@@ -4,8 +4,8 @@ import { Inter } from "next/font/google"
 import '../globals.css'
 
 export const metadata = {
-    title: 'Thread',
-    description: 'Next.js 13 Thread ',
+    title: 'StringHub',
+    description: 'Next.js 14 StringHub Social Media Platform for programmers',
 }
 
 const inter = Inter({ subsets: ['latin'] })

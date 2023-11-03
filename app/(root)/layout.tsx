@@ -11,8 +11,8 @@ import Bottombar from '@/components/shared/Bottombar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Thread',
-  description: 'Next.js 13 Thread ',
+  title: 'StringHub',
+  description: 'Next.js 14 StringHub Social Media Platform for programmers',
 }
 
 export default function RootLayout({
